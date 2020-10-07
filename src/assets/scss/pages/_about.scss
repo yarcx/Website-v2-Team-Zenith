@@ -1,0 +1,33 @@
+.check{
+    color: #05b993;
+}
+
+.container__section{
+    height: 100%;
+}
+
+.text{
+    max-width: 558px;
+    margin-bottom:1rem ;
+}
+.picture{
+    height:300px;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/yarcx/image/upload/v1601977855/IMG_6292_xokphh.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:  768px) { 
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        .box1{
+            order: 2;
+        }
+        .box2{
+            order: 1;
+        }
+    }
+}
